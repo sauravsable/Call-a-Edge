@@ -1,5 +1,8 @@
 p {
     color: #8f8f8f;
+    /* text-align: justify-content; */
+    text-align: left;
+    padding-left: 20px;
 }
 
 body {
@@ -8,7 +11,7 @@ body {
 
 h1 {
     font-family: "Montserrat-Black 900", sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
     color: white;
 }
@@ -33,6 +36,8 @@ h3 {
 .navbar {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .nav-item {
@@ -50,17 +55,26 @@ h3 {
 .container-fluid {
     padding: 3% 3%;
     text-align: center;
-    background-color: white;
+    background-color:lightcyan;
     color: black;
 }
 
 .heading1{
   color: black;
-  text-align: justify-content;
+  /* text-align: justify-content; */
+  text-align: left;
+  padding-left: 20px;
 }
+
+.col-lg-6{
+  padding-top: 60px;
+}
+
 .dreamimage{
-  margin-top: 70px;
-  width: 50%;
+  /* margin-top: 70px; */
+  width: 90%;
+  height: 50vh;
+  margin-bottom: 20px;
 }
 .download-button {
     margin: 2% 3% 5% 0;
@@ -344,7 +358,10 @@ input[type="radio"]{
     font-size: 50px;
   }
   .dreamimage {
-    width: 75%;
+    width: 85%;
+}
+.footer-company-name{
+  display: none;
 }
 }
 
