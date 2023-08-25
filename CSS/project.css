@@ -1,8 +1,5 @@
 p {
     color: #8f8f8f;
-    /* text-align: justify-content; */
-    text-align: left;
-    padding-left: 20px;
 }
 
 body {
@@ -65,7 +62,12 @@ h3 {
   text-align: left;
   padding-left: 20px;
 }
-
+.para {
+  color: #8f8f8f;
+  /* text-align: justify-content; */
+  text-align: left;
+  padding-left: 20px;
+}
 .col-lg-6{
   padding-top: 60px;
 }
